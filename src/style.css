@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+
+body{
+    background-color: #FAFAFA;
+    margin: 0;
+	padding: 0;
+    line-height: 1.5em;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    color:deeppink;
+    font-family: 'Shadows Into Light', cursive;
+    text-align: center;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    position:fixed;
+    overflow: hidden;
+    background-color: #FAFAFA;
+}
+
+select{
+    color: deeppink;
+}
+
+span{
+    padding-left: 1vh;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 5rem;
+    list-style-type: none;
+}
+
+ul .character{
+    width: 50vh;
+}
+
+ul .character dt {
+    color: deeppink;
+}
+
+ul .character dd {
+color: black;
+text-align: justify;
+}
+
+footer{
+    color: hotpink;
+    border-top: 1px solid #e1e1e1;
+    margin: 5rem;
+    padding-top: 5rem;
+    text-align: center;
+}
+
+.person-picture{
+    width: 12rem;
+    height: 12rem;
+    object-fit: cover;
+    padding: 5px;
+    margin-top: 3rem;
+    border-radius:150px;
+    background: 
+     linear-gradient(#FAFAFA,#fafafa) padding-box,
+     linear-gradient(to right, #9c20aa, #fb3570) border-box;
+    border:5px solid transparent;
+}
