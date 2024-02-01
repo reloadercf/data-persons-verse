@@ -2,10 +2,33 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Dataverse</title>
+    <title>Data Lovers</title>
     <link rel="stylesheet" href="style.css" />
+    <meta name="description" content="Discovery awesome persons of computing history"/>
+
   </head>
   <body>
+    <header>
+      <h1>Awesome persons of computing history </h1>
+    </header>
+    <nav>
+      <span class=".container-nav">
+        <label for="filterByYear">Filter by year</label>
+        <select name="filterByYear" id="filterByYear">
+          <option value="default">Select your year</option>
+        </select>
+      </span>
+      <span class=".container-nav">
+        <label for="sortByName">Sort by name</label>
+        <select name="sortByName" id="sortByName">
+          <option value="default">Select any option</option>
+          <option value="asc">ascending</option>
+          <option value="desc">descending</option>
+        </select>
+      </span>
+    </nav>
+    <div id="root"></div>
+    <footer>Free software is a matter of liberty, not price. To understand the concept, you should think of 'free' as in 'free speech,' not as in 'free beer'.</footer>
     <script src="main.js" type="module"></script>
   </body>
 </html>
