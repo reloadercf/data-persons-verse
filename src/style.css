@@ -11,7 +11,8 @@ body{
 
 header{
     color:deeppink;
-    font-family: 'Shadows Into Light', cursive;
+    text-align: center;
+}
     text-align: center;
 }
 
